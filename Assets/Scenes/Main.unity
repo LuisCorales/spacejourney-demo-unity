@@ -426,6 +426,7 @@ MonoBehaviour:
   - {fileID: 1432918591}
   - {fileID: 1570537814}
   cam: {fileID: 963194227}
+  speed: 7
 --- !u!4 &558140349
 Transform:
   m_ObjectHideFlags: 0
