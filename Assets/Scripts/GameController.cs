@@ -55,7 +55,7 @@ public class GameController : MonoBehaviour
             currentPlanet = Planets[count];
         }
 
-        Vector3 targetPosition = new Vector3(currentPlanet.transform.position.x + 3.5f, currentPlanet.transform.position.y, cam.transform.position.z);
+        Vector3 targetPosition = new Vector3(currentPlanet.transform.position.x + 3.5f, currentPlanet.transform.position.y, currentPlanet.transform.position.z - 10f);
 
         cam.transform.position = Vector3.MoveTowards(cam.transform.position, targetPosition, Time.deltaTime * speed);
 
